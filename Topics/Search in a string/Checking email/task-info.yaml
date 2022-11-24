@@ -1,0 +1,23 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def check_email(string):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9561#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #8 of 8. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 11, in <module>
+        print(check_email(__email))
+      File "jailed_code", line 6, in check_email
+        elif string.find(".") == -1 or string.index(".", string.find("@")+1) == string.index("@")+1:
+    ValueError: substring not found
+  time: "Mon, 21 Nov 2022 05:45:02 UTC"
+record: -1
